@@ -1,0 +1,241 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-19 16:14+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: orders/models.py:10
+msgid "Daily"
+msgstr ""
+
+#: orders/models.py:11
+msgid "Weekly"
+msgstr ""
+
+#: orders/models.py:12
+msgid "Monthly"
+msgstr ""
+
+#: orders/models.py:13
+msgid "Yearly"
+msgstr ""
+
+#: orders/models.py:15
+msgid "Pending"
+msgstr ""
+
+#: orders/models.py:16
+msgid "Confirmed"
+msgstr ""
+
+#: orders/models.py:17
+msgid "Cancelled"
+msgstr ""
+
+#: orders/models.py:18
+msgid "Completed"
+msgstr ""
+
+#: orders/models.py:20
+msgid "Not Paid"
+msgstr ""
+
+#: orders/models.py:21
+msgid "Paid"
+msgstr ""
+
+#: orders/models.py:22
+msgid "Partial Paid"
+msgstr ""
+
+#: orders/models.py:23 user/models.py:8
+msgid "Tenant"
+msgstr "Ijarachi"
+
+#: orders/models.py:24
+#, fuzzy
+#| msgid "property"
+msgid "Property"
+msgstr "mulk"
+
+#: orders/models.py:25
+msgid "Start date"
+msgstr ""
+
+#: orders/models.py:26
+msgid "End date"
+msgstr ""
+
+#: orders/models.py:27
+#, fuzzy
+#| msgid "status"
+msgid "Booking status"
+msgstr "holati"
+
+#: orders/models.py:28
+#, fuzzy
+#| msgid "status"
+msgid "Payment status"
+msgstr "holati"
+
+#: orders/models.py:29
+#, fuzzy
+#| msgid "Price"
+msgid "Total Price"
+msgstr "narxi"
+
+#: orders/models.py:30
+msgid "Discount"
+msgstr ""
+
+#: orders/models.py:31
+#, fuzzy
+#| msgid "created at"
+msgid "Created at"
+msgstr "yaratildi"
+
+#: orders/models.py:32
+#, fuzzy
+#| msgid "updated at"
+msgid "Updated at"
+msgstr "yaniglandi"
+
+#: properties/models.py:10
+msgid "region name"
+msgstr "viloyat nomi"
+
+#: properties/models.py:14
+msgid "district name"
+msgstr "tuman nomi"
+
+#: properties/models.py:19
+msgid "name"
+msgstr "nomi"
+
+#: properties/models.py:22
+msgid "Active"
+msgstr "faol"
+
+#: properties/models.py:23
+msgid "Blocked"
+msgstr "loklangan"
+
+#: properties/models.py:24
+msgid "Archived"
+msgstr "arxivlangan"
+
+#: properties/models.py:26
+msgid "title"
+msgstr "sarlavha"
+
+#: properties/models.py:27
+msgid "description"
+msgstr "xaqida malumot"
+
+#: properties/models.py:29
+msgid "address"
+msgstr "manzil"
+
+#: properties/models.py:30
+msgid "latitude"
+msgstr "kenglik"
+
+#: properties/models.py:31
+msgid "longitude"
+msgstr "uzunlik"
+
+#: properties/models.py:32
+msgid "rooms"
+msgstr "xonalar"
+
+#: properties/models.py:33
+msgid "floor"
+msgstr "qavat"
+
+#: properties/models.py:34
+msgid "total_floor"
+msgstr "umumiy qavatlar"
+
+#: properties/models.py:35
+msgid "area"
+msgstr "maydon"
+
+#: properties/models.py:37
+msgid "furnished"
+msgstr "jihozlangan"
+
+#: properties/models.py:38
+msgid "price_day"
+msgstr "kunlik narx"
+
+#: properties/models.py:39
+msgid "price_week"
+msgstr "hatalik narx"
+
+#: properties/models.py:40
+msgid "price_year"
+msgstr "yillik narx"
+
+#: properties/models.py:41
+msgid "status"
+msgstr "holati"
+
+#: properties/models.py:42
+msgid "created at"
+msgstr "yaratildi"
+
+#: properties/models.py:43
+msgid "updated at"
+msgstr "yaniglandi"
+
+#: properties/models.py:47
+msgid "property"
+msgstr "mulk"
+
+#: properties/models.py:48
+msgid "image"
+msgstr "rasm"
+
+#: properties/models.py:53
+msgid "comment"
+msgstr ""
+
+#: root/settings.py:163
+msgid "Uzbek"
+msgstr "O'zbek"
+
+#: root/settings.py:164
+msgid "English"
+msgstr "Ingliz"
+
+#: root/settings.py:165
+msgid "Russian"
+msgstr "Rus"
+
+#: user/models.py:9
+msgid "Landlord"
+msgstr "Uy egasi"
+
+#: user/models.py:10
+msgid "Admin"
+msgstr "admin"
+
+#~ msgid "Product Name"
+#~ msgstr "mahsulot nomi"
+
+#~ msgid "Price"
+#~ msgstr "narxi"

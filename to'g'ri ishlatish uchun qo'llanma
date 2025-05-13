@@ -1,0 +1,32 @@
+web socektni ishlatish kodi:
+            daphne -b 0.0.0.0 -p 8000 root.asgi:application
+
+            shu orqli dastur ha ishga tushadi.
+            websocket to'g'ri ishlashi uchun redisga run berilgan bo'lishi lozim.
+            brouzerda xabar kelayotganini comman+option+I ni bossa terminal ochib beradi shu yerdan ko'rsa bo'ladi
+            brouzerdan websocket ni ishlatib yuborish kodi:
+
+----------------------------------------------  ----------------------------------------------
+            const userId = 1; // Test uchun
+const socket = new WebSocket(`ws://127.0.0.1:8000/ws/notifications/${userId}/`);
+
+socket.onopen = function () {
+    console.log("WebSocket ochildi");
+};
+
+socket.onmessage = function (event) {
+    const data = JSON.parse(event.data);
+    console.log("📩 Yangi bildirishnoma:", data.message);
+};
+
+socket.onerror = function (error) {
+    console.error("WebSocket xatosi:", error);
+};
+
+socket.onclose = function () {
+    console.log("WebSocket yopildi");
+};
+
+
+------------------------------------------------------------------------------------------------
+agar brouzerda kodni ishlatishga ruxsat bermasa "allow pasting" deb yozasiz

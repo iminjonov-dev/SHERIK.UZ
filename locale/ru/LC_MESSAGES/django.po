@@ -1,0 +1,243 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-19 16:14+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: orders/models.py:10
+msgid "Daily"
+msgstr ""
+
+#: orders/models.py:11
+msgid "Weekly"
+msgstr ""
+
+#: orders/models.py:12
+msgid "Monthly"
+msgstr ""
+
+#: orders/models.py:13
+msgid "Yearly"
+msgstr ""
+
+#: orders/models.py:15
+msgid "Pending"
+msgstr ""
+
+#: orders/models.py:16
+msgid "Confirmed"
+msgstr ""
+
+#: orders/models.py:17
+msgid "Cancelled"
+msgstr ""
+
+#: orders/models.py:18
+msgid "Completed"
+msgstr ""
+
+#: orders/models.py:20
+msgid "Not Paid"
+msgstr ""
+
+#: orders/models.py:21
+msgid "Paid"
+msgstr ""
+
+#: orders/models.py:22
+msgid "Partial Paid"
+msgstr ""
+
+#: orders/models.py:23 user/models.py:8
+msgid "Tenant"
+msgstr "Жилец"
+
+#: orders/models.py:24
+#, fuzzy
+#| msgid "property"
+msgid "Property"
+msgstr "свойство"
+
+#: orders/models.py:25
+msgid "Start date"
+msgstr ""
+
+#: orders/models.py:26
+msgid "End date"
+msgstr ""
+
+#: orders/models.py:27
+#, fuzzy
+#| msgid "status"
+msgid "Booking status"
+msgstr "статус"
+
+#: orders/models.py:28
+#, fuzzy
+#| msgid "status"
+msgid "Payment status"
+msgstr "статус"
+
+#: orders/models.py:29
+#, fuzzy
+#| msgid "Price"
+msgid "Total Price"
+msgstr "Цена"
+
+#: orders/models.py:30
+msgid "Discount"
+msgstr ""
+
+#: orders/models.py:31
+#, fuzzy
+#| msgid "created at"
+msgid "Created at"
+msgstr "создано в"
+
+#: orders/models.py:32
+#, fuzzy
+#| msgid "updated at"
+msgid "Updated at"
+msgstr "обновлено в"
+
+#: properties/models.py:10
+msgid "region name"
+msgstr "название региона"
+
+#: properties/models.py:14
+msgid "district name"
+msgstr "название района"
+
+#: properties/models.py:19
+msgid "name"
+msgstr "имя"
+
+#: properties/models.py:22
+msgid "Active"
+msgstr "Активный"
+
+#: properties/models.py:23
+msgid "Blocked"
+msgstr "Заблокировано"
+
+#: properties/models.py:24
+msgid "Archived"
+msgstr "Архивировано"
+
+#: properties/models.py:26
+msgid "title"
+msgstr "заголовок"
+
+#: properties/models.py:27
+msgid "description"
+msgstr "описание"
+
+#: properties/models.py:29
+msgid "address"
+msgstr "адрес"
+
+#: properties/models.py:30
+msgid "latitude"
+msgstr "широта"
+
+#: properties/models.py:31
+msgid "longitude"
+msgstr "долгота"
+
+#: properties/models.py:32
+msgid "rooms"
+msgstr "комнаты"
+
+#: properties/models.py:33
+msgid "floor"
+msgstr "пол"
+
+#: properties/models.py:34
+msgid "total_floor"
+msgstr "total_floor"
+
+#: properties/models.py:35
+msgid "area"
+msgstr "область"
+
+#: properties/models.py:37
+msgid "furnished"
+msgstr "меблированный"
+
+#: properties/models.py:38
+msgid "price_day"
+msgstr "цена_дня"
+
+#: properties/models.py:39
+msgid "price_week"
+msgstr "цена_неделя"
+
+#: properties/models.py:40
+msgid "price_year"
+msgstr "цена_год"
+
+#: properties/models.py:41
+msgid "status"
+msgstr "статус"
+
+#: properties/models.py:42
+msgid "created at"
+msgstr "создано в"
+
+#: properties/models.py:43
+msgid "updated at"
+msgstr "обновлено в"
+
+#: properties/models.py:47
+msgid "property"
+msgstr "свойство"
+
+#: properties/models.py:48
+msgid "image"
+msgstr "изображение"
+
+#: properties/models.py:53
+msgid "comment"
+msgstr ""
+
+#: root/settings.py:163
+msgid "Uzbek"
+msgstr "узбекский"
+
+#: root/settings.py:164
+msgid "English"
+msgstr "Английский"
+
+#: root/settings.py:165
+msgid "Russian"
+msgstr "Русский"
+
+#: user/models.py:9
+msgid "Landlord"
+msgstr "Арендодатель"
+
+#: user/models.py:10
+msgid "Admin"
+msgstr "Админ"
+
+#~ msgid "Product Name"
+#~ msgstr "Название продукта"
+
+#~ msgid "Price"
+#~ msgstr "Цена"
